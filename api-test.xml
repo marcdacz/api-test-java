@@ -1,0 +1,19 @@
+<suite name="TravelPortAPITestSuite" verbose="1" >
+    <!--<test name="APISmokeTests" >-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="Smoke"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<packages>-->
+            <!--<package name="com.travelport.framework"/>-->
+            <!--<package name="com.travelport.test"/>-->
+        <!--</packages>-->
+    <!--</test>-->
+    <test name="APIFullTests" >
+        <packages>
+            <package name="com.travelport.framework"/>
+            <package name="com.travelport.test"/>
+        </packages>
+    </test>
+</suite>
